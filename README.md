@@ -29,5 +29,5 @@ Step 3 is to transform the integers for the activites into a meaningful name. Th
 
 Step 4 is to provide meaningful feature names to the data using the original feature names descriptions from the original dataset.
 
-Finally, step 5 melts the data by subject and activity and measures the mean values of each melted value. This leaves only data for each subject and each activity in the final tidy dataset.
+Finally, step 5 melts the data by subject and activity and measures the mean values of each subject and activity pair. This leaves only data for each subject and each activity in the final tidy dataset.
 
