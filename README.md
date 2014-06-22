@@ -18,7 +18,7 @@ The script expects 8 files to be in the current working directory:
 
 These are the original data files and the code book for them is explained in the original data as part of the zip file
 
-Step 1 is to nerge all of the data into a single data frame. This is done in three substeps.
+Step 1 is to merge all of the data into a single data frame. This is done in three substeps.
   The first three files are read and merged ito a single train data frame with columns for the subject, X data, and Y data
   The second set of three files are read and merged ito a single test data frame with columns for the subject, X data, and Y data
   Finally, the merged dataset is created by binding the rows of all of the data into one large data frame.
