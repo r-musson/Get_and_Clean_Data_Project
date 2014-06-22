@@ -46,7 +46,7 @@ colnames(extracted) <- c("Subject", features[keep,2] , "Activity")
 
 ### at this point the extracted data frame contains the info desired
 ##Step 5: 
-
+library(reshape2)
 #first melt into the ids of subject and activity keeping all else as variables
 tm <- melt(extracted,id=c("Subject", "Activity"),measure.vars=c(features[keep,2]))
 
